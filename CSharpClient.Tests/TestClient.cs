@@ -13,7 +13,7 @@ namespace CSharpClient.Tests
     {
         private Uri uri = new Uri("http://localhost:49731/");
 
-        private string SampleTemplatesFolder = @"..\..\..\SampleTemplates";
+        private string SampleTemplatesFolder = @"..\..\..\samples";
 
         [TestMethod]
         public void Client_GetVersion()

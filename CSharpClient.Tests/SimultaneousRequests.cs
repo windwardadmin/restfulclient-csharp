@@ -37,8 +37,8 @@ namespace CSharpClient.Tests
                 t.Join();
         }
 
-        private static Uri uri = new Uri("http://localhost/restful/");
-        private static string SampleTemplatesFolder = @"..\..\..\SampleTemplates";
+        private static Uri uri = new Uri("http://localhost:49731/");
+        private static string SampleTemplatesFolder = @"..\..\..\samples";
         private static Random rnd = new Random(17);
 
         public static void Request1()
